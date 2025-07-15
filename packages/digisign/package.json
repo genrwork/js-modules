@@ -1,0 +1,33 @@
+{
+  "name": "digisign",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "biome check .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@a4smanjorg5/invoida-components": "^0.1.0",
+    "@tanstack/react-query": "5.45.1",
+    "bootstrap": "^5.3.5",
+    "cborg": "^4.2.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "viem": "latest",
+    "wagmi": "latest"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.8.0",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@vitejs/plugin-react-swc": "^3.8.0",
+    "@wagmi/cli": "latest",
+    "buffer": "^6.0.3",
+    "sass-embedded": "~1.77.5",
+    "typescript": "~5.7.2",
+    "vite": "^6.3.1"
+  }
+}
